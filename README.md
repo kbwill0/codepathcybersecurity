@@ -14,7 +14,7 @@ Time spent: **8** hours spent in total
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: A malicious script can inject into inside the administrators control panel using XSS when an user is uploading a large file.
   - [ ] Affected source code:
-    - [Link 1](https://hackerone.com/reports/203515)
+    - [Code Link](https://hackerone.com/reports/203515)
 ### 2. (Required) WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: 
     - Vulnerability types: XSS
@@ -23,16 +23,16 @@ Time spent: **8** hours spent in total
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: Running the XSS code in a posting <a href="[caption code=">]</a><a title=" onmouseover=alert('hacked')  ">link</a> to <a href="</a><a title=" onmouseover=alert('hacked')  ">link</a>
   - [ ] Affected source code:
-    - [Link 1](https://klikki.fi/adv/wordpress3.html)
-### 3. (Required) Vulnerability Name or ID
+    - [Code Link](https://klikki.fi/adv/wordpress3.html)
+### 3. (Required) WordPress  4.0-4.7.2 - Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
   - [ ] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2
-    - Fixed in version: 4.2.5
+    - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+  - [ ] Steps to recreate: Run a XSS code to bypass the regular expressions and embed shortcode function URL. Users who view the post will execute the code [embed src='https://youtube.com/embed/12345\x3csvg onload=alert(document.cookie)\x3e'][/embed]
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Code Link](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/class-wp-embed.php)
 ### 4. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
@@ -41,7 +41,7 @@ Time spent: **8** hours spent in total
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Code Link](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 ### 5. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
@@ -50,7 +50,7 @@ Time spent: **8** hours spent in total
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
+    - [Code Link](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
 
 ## Assets
 
