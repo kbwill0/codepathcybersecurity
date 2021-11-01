@@ -11,7 +11,7 @@ Time spent: **8** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.15
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: <img src="1.gif" alt="1">
   - [ ] Steps to recreate: A malicious script can inject into inside the administrators control panel using XSS when an user is uploading a large file.
   - [ ] Affected source code:
     - [Code Link](https://hackerone.com/reports/203515)
