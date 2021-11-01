@@ -12,7 +12,7 @@ Time spent: **8** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.15
   - [ ] GIF Walkthrough: <img src="1.gif" alt="1">
-  - [ ] Steps to recreate: A malicious script can inject into inside the administrators control panel using XSS when an user is uploading a large file.
+  - [ ] Steps to recreate: A malicious script can inject into inside the administrators control panel using XSS when an user is uploading a large file
   - [ ] Affected source code:
     - [Code Link](https://hackerone.com/reports/203515)
 ### 2. (Required) WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
@@ -44,13 +44,13 @@ Time spent: **8** hours spent in total
     - [Code Link](https://blog.checkpoint.com/2015/09/15/finding-vulnerabilities-in-core-wordpress-a-bug-hunters-trilogy-part-iii-ultimatum/)
 ### 5. (Optional) User Enumeration
   - [ ] Summary: 
-    - Vulnerability types:
+    - Vulnerability types: User Enumeration
     - Tested in version: 4.2
     - Fixed in version: N/A
   - [ ] GIF Walkthrough: <img src="5.gif" alt="5">
-  - [ ] Steps to recreate: 
+  - [ ] Steps to recreate: Different return messages are shown for specific usernames and incorrect passwords like admin or root
   - [ ] Affected source code: 
-    - [Code Link](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
+    - [Code Link](https://core.trac.wordpress.org/browser/tags/4.2/src/wp-login.php) 
 
 ## Assets
 
