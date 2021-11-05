@@ -1,3 +1,3 @@
-# codepath_homework
+# codepath
 
-See branches for assignments.
+See branches for reports
