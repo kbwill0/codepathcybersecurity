@@ -55,7 +55,7 @@ Vulnerability #2: Cross-Site Request Forgery (CSRF)
 
 Description: Cross-Site Request Forgery cause a forge post request to modify information in the Salespeople database using a malicious HTML page in the user session hidden iframe. CSRF will run once an administrator account user access the page. Developers should require CSRF tokens on the Salespeople edit form submit database and disallow loading responses onto hidden iframe. Below is the HTML code that secretly loads the page and hides the outcome.
 <pre><code>
-<!DOCTYPE html>
+'''<!DOCTYPE html>
 <html>
   <head>
     <title>$100 Gift Cards Giveaways</title>
@@ -69,7 +69,7 @@ Description: Cross-Site Request Forgery cause a forge post request to modify inf
     </form>
     <iframe name="hidden_results" style="display: none;"></iframe>
   </body>
-</html>
+</html>'''
 </code></pre>
 
 <img src="red-CSRF.gif">
