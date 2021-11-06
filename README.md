@@ -33,16 +33,15 @@ Description: Session Hjacked and Fixation by copying the PHPSESSIONID from an ad
 
 Vulnerability #1: Username Enumeration
 
-Description:
-
+Description: Username Enumeration occurs when usernames are valid and invalid in the server. For usernames that exist, the unsuccessful login message will be bolded whereas for usernames that does not exist the message will be unbolded. Developers assigned two different span tag classes, failure as bolded style whereas failed as unbolded style in HTML/CSS. Vulnerability can be fixed by keeping span tag classes the same when usernames are valid and invalid in the server.
+  
 <img src="green-Username_Enumeration.gif">
 
 Vulnerability #2: Cross-Site Scripting (XSS)
 
-Description:
-
+Description: Pushed a Cross-Site Scripting in the contact feedback form. Inserted the XSS command <script>alert('WILL GOT HACKED BY XSS');</script> and the XSS attack script will run once the administrator account user clicks on the page.
+  
 <img src="green-XSS.gif">
-
 
 ## Red
 
@@ -57,7 +56,6 @@ Vulnerability #2: Cross-Site Request Forgery (CSRF)
 Description:
 
 <img src="red-CSRFgif">
-
 
 ## Notes
 
