@@ -55,7 +55,7 @@ Vulnerability #2: Cross-Site Request Forgery (CSRF)
 
 Description:
 
-<img src="red-CSRFgif">
+<img src="red-CSRF.gif">
 
 ## Notes
 
